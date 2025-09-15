@@ -57,6 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        /* Weather-specific colors */
+        'chat-user': "hsl(var(--chat-bubble-user))",
+        'chat-bot': "hsl(var(--chat-bubble-bot))",
+        'glass': "hsl(var(--glass-bg))",
+      },
+      backgroundImage: {
+        'sky-gradient': 'var(--sky-gradient)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'glass': 'var(--shadow-glass)',
       },
       borderRadius: {
         lg: "var(--radius)",
