@@ -47,7 +47,7 @@ export const WeatherChatbot = () => {
 
     try {
       // Call the n8n webhook
-      const response = await fetch("https://sandeepchittiboina.app.n8n.cloud/webhook-test/d3d366c9-533b-44ad-bbef-14c0fd630a48", {
+      const response = await fetch("https://sandeepchittiboina.app.n8n.cloud/webhook/d3d366c9-533b-44ad-bbef-14c0fd630a48", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
